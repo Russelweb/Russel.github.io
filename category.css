@@ -1,0 +1,177 @@
+.category{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    width: 100%;
+}
+.cat{
+    color: brown;
+}
+.h1{
+    display: inline-block;
+}
+.write1{
+    background-color: aquamarine;
+    text-align: center;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    width: 25%;
+    height: 50%;
+    padding-top: 18%;
+    margin: 5px;
+    display: block;
+    grid-area: write1;
+    flex: 0 1 25%;
+}
+.w1-btn{
+    background-color:aqua ;
+    border-radius: 10px;
+}
+div aside p b{
+    text-transform: capitalize;
+}
+.text1{
+    position: relative;
+    top:40%;
+}
+#cat1{
+    position: relative;
+    top: 10px;
+    width: 20%;
+
+}
+.write2{
+    background-color: palevioletred;
+    text-align: center;
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+    width: 25%;
+    height: 50%;
+    padding-top: 20%;
+    margin: 5px;
+    grid-area: write2;
+    display: block;
+    display: flex;
+    flex: 0 1 25%;
+}
+.w2-btn{
+    background-color:pink ;
+    border-radius: 10px;
+}
+div aside p b{
+    text-transform: capitalize;
+}
+.text2{
+    position: relative;
+    top:40%;
+}
+#cat2{
+    position: relative;
+    top: 10px;
+    width: 20%;
+
+}
+.container{
+    display: flex;
+}
+
+.write3{
+    background-color: violet;
+    text-align: center;
+    border: 1px solid violet;
+    border-radius: 10px;
+    width: 25%;
+    height: 70%;
+    margin: 5px;
+    padding-top: 19.5%;
+    grid-area: write3;
+    display: block;
+    display: flex;
+    flex: 0 1 25%;
+}
+.w3-btn{
+    background-color:plum ;
+    border-radius: 10px;
+}
+div aside p b{
+    text-transform: capitalize;
+}
+.text3{
+    position: relative;
+    top:40%;
+}
+#cat3{
+    position: relative;
+    top: 10px;
+    width: 20%;
+
+}
+
+.write4{
+    background-color: lightyellow;
+    text-align: center;
+    border: 1px solid lightyellow;
+    border-radius: 10px;
+    width: 25%;
+    height: 50%;
+    padding-top: 20%;
+    margin: 5px;
+    grid-area: write4;
+    display: block;
+    display: flex;
+    flex: 0 1 25%;
+}
+.w4-btn{
+    background-color:lightgoldenrodyellow ;
+    border-radius: 10px;
+}
+div aside p b{
+    text-transform: capitalize;
+}
+.text4{
+    position: relative;
+    top:40%;
+}
+#cat4{
+    position: relative;
+    top: 10px;
+    width: 20%;
+
+}
+html{
+    background-image: url('C:\Users\LENOVO\Desktop\hooyia 2\images\blog-bg.svg');
+}
+.prev1{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    border: 1px solid #2f5a78;
+    border-radius: 20px;
+    background-color: #2f5a78;
+    height: 50px;
+    width: 90px;
+    padding-top: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#abt-img{
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    z-index: 2;
+    postion:absolute;
+    bottom: 10px;
+    left:10px;
+}
+#abt-img1{
+    margin-top: 30px;
+    margin-left: 20px;
+    z-index: 1;
+    postion:absolute;
+    bottom: 10px;
+    left:10px;
+}
